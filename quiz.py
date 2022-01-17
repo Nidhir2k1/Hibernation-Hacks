@@ -156,8 +156,8 @@ cv2.destroyAllWindows()
 ######################   TWILIO   ##########################################################
     
 
-account_sid = 'AC69b38384513b873060389f558c384f49' 
-auth_token = '9f7b26a73c4ad35d14a9e4be50bb88ff' 
+account_sid = 'Enter your twilio sid' 
+auth_token = 'Enter your twilio auth token' 
 client = Client(account_sid, auth_token) 
 if score==100:
     message = client.messages.create( 
